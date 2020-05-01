@@ -261,3 +261,6 @@ Basic:
 Additional helpful information:
 - If the problem only occurs with the =-s= flag, the issue is likely due to the fact that not all terminals have compatible =-e= flags. It would be helpful if information on how the terminal's flag for executing a command works. Is it something other than =-e=? Are quotations required or incorrect ("-e 'command -flags ...'" vs "-e command flags")?
 - If the issue is with the dropdown behavior (e.g. tdrop keeps opening new windows for the program), does the program share a PID across all instances (e.g. open several windows and provide the output of =pgrep -l <program>=)? Does the program have a daemon and client?
+
+## Compilar
+`sudo make install`
